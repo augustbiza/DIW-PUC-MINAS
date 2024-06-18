@@ -1,4 +1,24 @@
-.thumbnail{
+
+
+.logo {
+    width: 100px;
+    height: auto;
+
+}
+
+.thumbnail1{
     width: 200px;
     height: auto;
+}
+
+
+.thumbnail2{
+    width: 200px;
+    height: auto;
+}
+
+/*Sobre Mim*/
+
+#sbtitulo {
+    text-align: center;
 }
