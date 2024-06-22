@@ -1,0 +1,93 @@
+* {/*configuracoes gerais*/
+    margin: 0;
+    padding: 0;
+}
+/*Home*/
+header {
+    background-color: bisque;
+}
+main {
+    background-color: antiquewhite;
+    width: 65%;
+    float: left;/*conteudo da main fica a esquerda do site*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.post {
+    
+    clear: both;/*apagar a flutuação 'left' para que o proximo post fique embaixo do anterior*/
+
+}
+.post img {
+    float: left;
+    width: 130px;
+    height: auto;
+    margin-right: 7px;/*margem entre a imagem e o texto a direira*/
+}
+
+aside {
+    background-color: azure;
+    width: 35%;
+    float: left;/*menu fica a esquerda da tela*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer {
+    background-color: rgb(174, 168, 168);
+}
+
+.menu-principal {
+    float: right;/*menu fica a direita ta tela*/
+}
+
+.menu-principal ul {
+    list-style-type: none; /*tirar as bolinhas da ul*/
+}
+
+.menu-principal ul li {
+    display: inline-block;/*lista fica horizontal e nao vertical*/
+    margin-top: 23px;/*margem dos blocos do menu para a parte de cima do site*/
+    
+}
+
+.menu-principal ul li a {/*parte clicavel*/
+    padding: 10px;
+    text-decoration: none;/*tira o sublinhado do link*/
+    background-color: beige;
+    color: black;
+}
+
+.menu-principal ul li a:hover {/*passar o mouse por cima*/
+    background-color: blue;/*muda para a cor azul*/
+}
+
+#logo {/*logo github*/
+    width: 100px;/*largura 100px*/
+    height: auto;
+    margin-left: 8px;
+
+}
+
+/**/
+
+.categ ul li a {
+    text-decoration: none;/*tira o sublinhado do link*/
+    color: black;
+
+}
+
+footer {
+    
+}
+
+.direitos {
+    width: 100%;
+}
+/*----------------------------------------*/
+
+/*Sobre Mim*/
+
+#sbtitulo {
+    text-align: center;
+}
