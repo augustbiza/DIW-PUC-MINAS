@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logoT {
+    text-align: center;
+}
+
+#titulo-home {
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;/*tira as bolinhas da ul*/
+}
+.menu ul a {
+    text-decoration: none;/*tira o sublinhado do link do menu*/
+}
