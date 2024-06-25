@@ -44,12 +44,11 @@ header h2 a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;/*elementos dentro da section class"flex" vao ser colocados lado a lado de acordo com o tamanho da tela, ocorrendo quebra(wrap) de elementos quando necessário*/
-    
-    
 }
 
 .flex div {
-    margin-left: 10px;/*margem entre as divs*/
+    margin: 0 auto;
+    
 }
 
 main section div p {
