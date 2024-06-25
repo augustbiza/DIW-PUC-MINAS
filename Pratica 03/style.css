@@ -4,17 +4,65 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#logoT {
-    text-align: center;
+/*****************HEAD*************************/
+
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;/*separa os elementos dentro do header: marca + menu(home+...+contato)*/
+    
 }
 
-#titulo-home {
-    text-align: center;
+header .menu ul li {
+    color: white;
+}
+
+header h2 #logoT{
+    padding: 20px;
+    color: white;
+}
+header h2 a{
+    text-decoration: none;/*tira o sublinhado do link marca*/
 }
 
 .menu ul {
     list-style-type: none;/*tira as bolinhas da ul*/
+    display: flex;/*a ul fica horizontal ao inves de vertical*/
+    padding: 10px;
 }
 .menu ul a {
     text-decoration: none;/*tira o sublinhado do link do menu*/
+    padding: 5px;
+}
+
+/*********************MAIN*********************/
+#titulo-home {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;/*elementos dentro da section class"flex" vao ser colocados lado a lado de acordo com o tamanho da tela, ocorrendo quebra(wrap) de elementos quando necessário*/
+    
+    
+}
+
+.flex div {
+    margin-left: 10px;/*margem entre as divs*/
+}
+
+main section div p {
+    max-width: 280px;/*largura max que o texto abaixo da imagem ocupa -> coloquei um tamnho menor que a largura max da imagem(280 e 300)*/
+}
+
+main section div img {
+    max-width: 300px;/*largura max das imagens*/
+}
+
+/********************************************/
+
+footer {
+    background-color: gray;
+
 }
