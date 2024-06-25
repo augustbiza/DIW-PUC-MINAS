@@ -1,0 +1,58 @@
+/*DESKTOP*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+}
+
+.cabecalho {
+    background-color: green;
+    color: white;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.conteudo {
+    margin: 8px;
+    padding: 20px;
+    background-color: blue;
+}
+
+
+/*SMARTPHONES*/
+@media screen and (max-width:600px) { /*dispositivos até 600px*/
+    body {
+        font-size: x-large;
+        margin: 0px; /*tira a margem*/
+    }
+    
+    .cabecalho{
+        background-color: yellow; /*muda a cor de fundo para verde claro*/
+        padding: 10px;
+        height: 150px;
+    }
+
+    .conteudo {
+        background-color: rgba(70, 208, 246, 0.819);
+        padding: 30px; /*padding vira 30px*/
+    }
+}
+
+/*TABLETS*/
+@media screen and (min-width: 601px) and (max-width:1024px) {
+    body {
+        font-size: larger;
+        margin: 4px;
+    }
+
+    .cabecalho {
+        background-color: orange;
+        padding: 15px;
+        height: 100px;
+    }
+
+    .conteudo {
+        background-color: rgb(94, 152, 233);
+    }
+}
