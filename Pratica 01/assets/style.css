@@ -23,8 +23,16 @@ main {
     float: left;
     width: 130px;
     height: auto;
-    margin-right: 7px;/*margem entre a imagem e o texto a direira*/
+    margin-right: 7px;/*margem entre a imagem e o texto a direita*/
 }
+
+.post .categoria {
+    background-color: rgb(175, 164, 164);/*categpria virar um quadratinho*/
+    padding: 2px;
+    border-radius: 3px;
+}
+
+
 
 aside {
     background-color: azure;
@@ -32,13 +40,15 @@ aside {
     float: left;/*menu fica a esquerda da tela*/
     padding: 20px;
     box-sizing: border-box;
+    text-align: center;
+    
 }
 footer {
     background-color: rgb(174, 168, 168);
 }
 
 .menu-principal {
-    float: right;/*menu fica a direita ta tela*/
+    float: right;/*menu fica a direita da tela*/
 }
 
 .menu-principal ul {
@@ -71,6 +81,22 @@ footer {
 
 /**/
 
+.pesquisa h2{
+    text-align: center;
+}
+
+.pesquisa .texto-pesquisa {
+    text-align: center;
+}
+
+.categ ul {
+    margin-top: 30px;/*separar pesquisa das categorias*/
+    list-style-type: none; /*tirar as bolinhas da ul*/
+    text-align: center;
+}
+
+
+
 .categ ul li a {
     text-decoration: none;/*tira o sublinhado do link*/
     color: black;
@@ -78,7 +104,9 @@ footer {
 }
 
 footer {
-    
+    display: block;
+    padding: 5px;
+    text-align: center;
 }
 
 .direitos {
