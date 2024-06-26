@@ -1,0 +1,17 @@
+
+{
+    "login": "augustbiza",
+    "avatar_url": "https://avatars.githubusercontent.com/u/583231?v=4",
+    "bio": "Bem vindo ao meu perfil. Aqui você poderá encontrar meus projetos de engenharia de software. Meu objetivo é resolver problemas humanos através da computação.",
+    "repos": [
+      {
+        "name": "AEDS-1-Lucio",
+        "html_url": "https://github.com/augustbiza/AEDS-1-Lucio"
+      },
+      {
+        "name": "DIW-PUC-MINAS",
+        "html_url": "https://github.com/augustbiza/DIW-PUC-MINAS"
+      }
+    ]
+  }
+  
