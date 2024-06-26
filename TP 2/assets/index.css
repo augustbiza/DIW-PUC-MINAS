@@ -1,0 +1,64 @@
+/*GERAL - INICIO*/
+    * {
+        margin: 5px;
+        padding: 0;
+    }
+
+    body{
+        
+    }
+/*GERAL - FIM*/
+
+
+/*INDEX - INICIO*/
+
+
+  /*BODY - INICIO*/
+    /*HEADER - INICIO*/
+
+
+    header {
+        display: flex; /*elementos ficam lado a lado*/
+        justify-content: space-between;/*espaco central entre meu nome e o menu*/
+    }
+    #nome-principal {
+        background-color: gray;/*cor do fundo do nome(=span)*/
+        padding: 3px;/*espaco entre as letras e a margem do span*/
+    }
+    .menu-secao {
+        list-style-type: none; /*tirar as bolinhas do 'menu'*/
+        display: flex; /*lista vira horzontal*/
+    }
+    .menu-secao a {
+        text-decoration: none; /*tira o sublinhado do link do menu*/
+        padding: 12px;/*espaco entre as seções*/
+    }
+    /*HEADER - FIM*/
+
+
+    /*MAIN - INICIO*/
+    #palavra-perfil {
+        margin-left: 17px;
+    }
+    .perfil-home {
+        display: flex;
+    }
+    .perfil-home img {
+        width:13%;
+        height: 13%;
+        /*mudanca de tamanho proporcional em width e heigh*/
+    }
+    .perfil-detalhes p{
+        padding: 1px;/*espacamento entre os p dentro da class perfil-detalhes*/
+    }
+    .logos-icons img {
+        width: 3.5%;        
+    }
+
+    /*MAIN - FIM*/
+
+
+  /*BODY - FIM*/
+
+
+/*INDEX - FIM*/
