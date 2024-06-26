@@ -35,6 +35,8 @@
     .menu-secao a li {
         color: black;
     }
+
+    
     /*HEADER - FIM*/
 
     /*MAIN - INICIO*/
@@ -43,6 +45,16 @@
       }
       #username {
         color: blue;
+      }
+
+      #social-links img {
+        max-width: 5%;
+        height: auto;
+        float: right;
+      }
+
+      @media screen and (max-width: 600px){
+        
       }
     /*MAIN - FIM*/
 
@@ -55,5 +67,6 @@
     /*FOOTER - FIM*/
 
   /*BODY - FIM*/
+
 
 /*INDEX - FIM*/

@@ -3,24 +3,71 @@
     "login": "augustbiza",
     "avatar_url": "https://avatars.githubusercontent.com/u/583231?v=4",
     "bio": "Bem vindo ao meu perfil. Aqui você poderá encontrar meus projetos de engenharia de software. Meu objetivo é resolver problemas humanos através da computação.",
-    
+
     "repos": [
       {
         "name": "AEDS-1-Lucio",
         "html_url": "https://github.com/augustbiza/AEDS-1-Lucio"
       },
+
       {
         "name": "DEITEL-C",
         "html_url": "https://github.com/augustbiza/Deitel-C"
       },
+
       {
         "name": "DIW-PUC-MINAS",
         "html_url": "https://github.com/augustbiza/DIW-PUC-MINAS"
       },
+
       {
         "name": "Site-de-Receitas",
         "html_url": "https://github.com/augustbiza/Site-de-Receitas"
       }
+    ],
+
+    "carouselExampleIndicators": [
+        {
+          "id": 1,
+          "foto": "https://wallpapercave.com/wp/wp2721787.jpg",
+          "caption": "Programação"
+        },
+
+        {
+            "id": 2,
+            "foto": "https://wallpapercave.com/wp/wp5638874.jpg",
+            "caption": "Matemática"
+          },
+          {
+            "id": 3,
+            "foto": "https://wallpapercave.com/wp/wp4700843.jpg",
+            "caption": "Física"
+          }
+    ],
+
+
+    "colleagues": [
+        {
+            "name": "Maria Silva",
+            "position": "Desenvolvedora Frontend",
+            "photo": "https://via.placeholder.com/150",
+            "sobre": "Maria é especialista em desenvolvimento frontend com mais de 5 anos de experiência."
+        },
+
+        {
+            "name": "João Pereira",
+            "position": "Desenvolvedor Backend",
+            "photo": "https://via.placeholder.com/150",
+            "sobre": "João é um desenvolvedor backend experiente com foco em soluções escaláveis."
+        },
+
+        {
+            "name": "Ana Costa",
+            "position": "UX/UI Designer",
+            "photo": "https://via.placeholder.com/150",
+            "sobre": "Ana tem uma forte paixão por design de interfaces intuitivas e experiência do usuário."
+        }
     ]
-  }
-  
+    
+
+}
