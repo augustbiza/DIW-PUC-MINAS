@@ -10,9 +10,8 @@
 
 
   /*BODY - INICIO*/
+
     /*HEADER - INICIO*/
-
-
     header {
         display: flex; /*elementos ficam lado a lado*/
         justify-content: space-between;/*espaco central entre meu nome e o menu*/
@@ -38,46 +37,23 @@
     }
     /*HEADER - FIM*/
 
-
     /*MAIN - INICIO*/
-   /* #palavra-perfil {
-        margin-left: 17px;
-    }*/
-    .perfil-home {
+      #profile {
         display: flex;
-    }
-    .perfil-home img {
-        width:13%;
-        height: 13%;
-        /*mudanca de tamanho proporcional em width e heigh*/
-    }
-    .perfil-detalhes p{
-        padding: 1px;/*espacamento entre os p dentro da class perfil-detalhes*/
-    }
-    .logos-icons img {
-        width: 3.5%;        
-    }
-
-    .repositorios {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .card-repo a h3,p {
-        color: black;
-    }
-    .card-repo a {
-        text-decoration: none;
-    }
-
-    .card-repo a img {
-        width: 300px;
-        height: 190px;
-    }
-
+      }
+      #username {
+        color: blue;
+      }
     /*MAIN - FIM*/
 
+    /*FOOTER - INICIO*/
+    footer{
+        background-color: rgb(175, 165, 165);
+        display: flex;/*separar copy do local*/
+        justify-content: space-between;
+    }
+    /*FOOTER - FIM*/
 
   /*BODY - FIM*/
-
 
 /*INDEX - FIM*/
