@@ -40,18 +40,6 @@ header h2 a{
     text-align: center;
 }
 
-/*.flex {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;/*elementos dentro da section class"flex" vao ser colocados lado a lado de acordo com o tamanho da tela, ocorrendo quebra(wrap) de elementos quando necessário*//*
-}
-
-.flex div {
-    margin: 0 auto;
-    
-}
-*/
-
 main section div p {
     max-width: 280px;/*largura max que o texto abaixo da imagem ocupa -> coloquei um tamnho menor que a largura max da imagem(280 e 300)*/
     text-align: center;/*fica centralizado na largura da imagem*/
@@ -66,6 +54,7 @@ main section div img {
 
 footer {
     background-color: gray;
+    width: 100%;
 }
 
 
@@ -73,8 +62,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;/*3 colunas*/
     grid-gap: 10px;/*espaçamento entre os blocos grid*/
-    max-width: 800px;
+    max-width: 100%;
+    height: auto;
     padding: 10px;
+    margin-left: 20px;
 }
 
 .grid .card {
@@ -87,4 +78,76 @@ footer {
 
 .grid .banner {
     grid-column: 3; /*card banner fica na terceira coluna*/
+    grid-row: 2 / 5;
+}
+
+@media screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card {
+        display: block;
+    }
+    .banner {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+#menu-Toggle {
+
+}
+
+.menu-icon {
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    header nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        overflow: hidden;
+    }
+    .menu li{
+        display: block;
+        background-color: aqua;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .menu li a {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .menu-icon {
+        display: block;
+        color: white;
+        width: 50%;
+        height: inherit;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        line-height: 60px;
+    }
+
+
 }
