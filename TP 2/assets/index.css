@@ -3,10 +3,6 @@
         margin: 5px;
         padding: 0;
     }
-
-    body{
-        
-    }
 /*GERAL - FIM*/
 
 
@@ -23,7 +19,11 @@
     }
     #nome-principal {
         background-color: gray;/*cor do fundo do nome(=span)*/
+        color: black;
         padding: 3px;/*espaco entre as letras e a margem do span*/
+    }
+    span a{
+        text-decoration: none;
     }
     .menu-secao {
         list-style-type: none; /*tirar as bolinhas do 'menu'*/
@@ -32,6 +32,9 @@
     .menu-secao a {
         text-decoration: none; /*tira o sublinhado do link do menu*/
         padding: 12px;/*espaco entre as seções*/
+    }
+    .menu-secao a li {
+        color: black;
     }
     /*HEADER - FIM*/
 
@@ -53,6 +56,22 @@
     }
     .logos-icons img {
         width: 3.5%;        
+    }
+
+    .repositorios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card-repo a h3,p {
+        color: black;
+    }
+    .card-repo a {
+        text-decoration: none;
+    }
+
+    .card-repo a img {
+        width: 300px;
+        height: 190px;
     }
 
     /*MAIN - FIM*/

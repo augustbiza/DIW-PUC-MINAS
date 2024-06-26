@@ -1,0 +1,30 @@
+/*GERAL - INICIO*/
+* {
+    margin: 5px;
+    padding: 0;
+}
+/*GERAL - FIM*/
+
+header {
+    display: flex; /*elementos ficam lado a lado*/
+    justify-content: space-between;/*espaco central entre meu nome e o menu*/
+}
+#nome-principal {
+    background-color: gray;/*cor do fundo do nome(=span)*/
+    color: black;
+    padding: 3px;/*espaco entre as letras e a margem do span*/
+}
+span a{
+    text-decoration: none;
+}
+.menu-secao {
+    list-style-type: none; /*tirar as bolinhas do 'menu'*/
+    display: flex; /*lista vira horzontal*/
+}
+.menu-secao a {
+    text-decoration: none; /*tira o sublinhado do link do menu*/
+    padding: 12px;/*espaco entre as seções*/
+}
+.menu-secao a li {
+    color: black;
+}
