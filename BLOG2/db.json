@@ -1,0 +1,40 @@
+{
+    "carousel": [
+      {
+        "image": "https://wallpapercave.com/wp/wp2721787.jpg",
+        "caption": "Programação",
+        "description": "Conteúdo sobre programação."
+      },
+      {
+        "image": "https://wallpapercave.com/wp/wp5638874.jpg",
+        "caption": "Matemática",
+        "description": "Conteúdo sobre matemática."
+      },
+      {
+        "image": "https://wallpapercave.com/wp/wp4700843.jpg",
+        "caption": "Física",
+        "description": "Conteúdo sobre física."
+      }
+    ],
+    "colleagues": [
+      {
+        "name": "João Silva",
+        "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+        "position": "Desenvolvedor Frontend",
+        "bio": "João é um especialista em desenvolvimento frontend com foco em React."
+      },
+      {
+        "name": "Maria Oliveira",
+        "photo": "https://randomuser.me/api/portraits/women/2.jpg",
+        "position": "Desenvolvedora Backend",
+        "bio": "Maria é uma desenvolvedora backend com vasta experiência em Node.js e Python."
+      },
+      {
+        "name": "Pedro Souza",
+        "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+        "position": "Engenheiro DevOps",
+        "bio": "Pedro é um engenheiro DevOps que adora automatizar tudo."
+      }
+    ]
+  }
+  

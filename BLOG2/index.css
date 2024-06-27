@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+#contact-buttons a {
+    margin: 5px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+footer{
+    background-color: rgb(175, 165, 165);
+    display: flex;/*separar copy do local*/
+    justify-content: space-between;
+}
